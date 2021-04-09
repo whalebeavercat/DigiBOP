@@ -1,0 +1,38 @@
+{
+  "scriptList": [
+    {
+      "blockList": [
+        {
+          "duration": "h",
+          "loop": 4,
+          "instrument": "Guitar",
+          "pitch": "C4",
+          "type": "LoopBlock"
+        },
+        {
+          "duration": "w",
+          "instrument": "Piano",
+          "pitch": "G6",
+          "type": "NoteBlock"
+        },
+        {
+          "duration": "w",
+          "type": "RestBlock"
+        }
+      ],
+      "name": "Script1",
+      "scriptX": 0,
+      "scriptY": 0
+    },
+    {
+      "blockList": [{
+        "duration": "h",
+        "type": "RestBlock"
+      }],
+      "name": "Script2",
+      "scriptX": 0,
+      "scriptY": 0
+    }
+  ],
+  "bpm": 90
+}

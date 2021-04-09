@@ -1,0 +1,43 @@
+{
+    "scriptList": [
+        {
+            "blockList": [
+                {
+                    "duration": "q",
+                    "loop": 4,
+                    "instrument": "Piano",
+                    "pitch": "C4",
+                    "type": "LoopBlock"
+                },
+                {
+                    "duration": "w",
+                    "instrument": "Piano",
+                    "pitch": "G5",
+                    "type": "NoteBlock"
+                }
+            ],
+            "name": "Script1",
+            "scriptX": 0,
+            "scriptY": 0
+        },
+        {
+            "blockList": [
+                {
+                    "duration": "h",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "q",
+                    "chordType": "maj",
+                    "instrument": "Piano",
+                    "pitch": "C4",
+                    "type": "ChordBlock"
+                }
+            ],
+            "name": "Script2",
+            "scriptX": 0,
+            "scriptY": 0
+        }
+    ],
+    "bpm": 90
+}

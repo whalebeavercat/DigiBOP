@@ -1,0 +1,13 @@
+{
+    "scriptList": [{
+        "blockList": [{
+            "duration": "q",
+            "loop": 4,
+            "instrument": "piano",
+            "pitch": "c4",
+            "type": "LoopBlock"
+        }],
+        "name": "randomscript"
+    }],
+    "bpm": 90
+}
