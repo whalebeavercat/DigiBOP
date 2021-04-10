@@ -25,11 +25,11 @@ public abstract class BlockTool extends Tool {
         block = makeBlock();
         if (selectedScript != null) {
             selectedScript.addBlock(block);
+            synthEditor.getScriptEditor().updateBlock(block);
+            synthEditor.getScriptEditor().updateScript();
         }
         WorkspaceUI workspace = synthEditor.getWorkspace();
         workspace.repaint();
-        synthEditor.getScriptEditor().updateScript();
-        synthEditor.getScriptEditor().updateBlock(block);
     }
 
     @Override

@@ -109,7 +109,7 @@ public class SynthEditor extends JFrame {
             System.out.println("Successfully loaded " + userDestination + " to the main Channel");
             this.isSaved = true;
             workspace.repaint();
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("File " + userDestination + " does not exist or invalid");
         }
     }
@@ -125,7 +125,7 @@ public class SynthEditor extends JFrame {
             this.destination = userDestination;
             System.out.println("Channel has been successfully saved to " + destination);
             this.isSaved = true;
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             System.out.println("Unable to write the file to: " + destination);
         }
     }

@@ -11,8 +11,9 @@ public class BlockEditorUI extends JPanel {
     public static final String[] PITCHES =
             {"A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"};
     public static final String[] TONES = {"1", "2", "3", "4", "5", "6", "7", "8"};
-    public static final String[] DURATIONS = {"q", "w", "h", "i"};
-    public static final String[] INSTRUMENTS = {"Piano", "Banjo", "Violin", "Flute", "Guitar"};
+    public static final String[] DURATIONS = {"w", "h", "q", "i", "q.", "h."};
+    public static final String[] INSTRUMENTS =
+            {"Piano", "Banjo", "Violin", "Flute", "Guitar", "Marimba", "Sawtooth"};
     public static final String[] CHORDS = {"maj", "min", "maj7", "min7", "dom7", "dim7"};
 
     private JComboBox instruments;
@@ -27,7 +28,7 @@ public class BlockEditorUI extends JPanel {
     //EFFECTS: Creates Block Option Panel for the given block
     public BlockEditorUI(SynthEditor synthEditor) {
         this.synthEditor = synthEditor;
-        setLayout(new GridLayout(2, 1));
+        setLayout(new GridLayout(5, 1));
     }
 
     //MODIFIES: this, userBLock

@@ -1,0 +1,266 @@
+{
+    "scriptList": [
+        {
+            "blockList": [
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "C4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "D4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "E4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "loop": 2,
+                    "instrument": "Banjo",
+                    "pitch": "G4",
+                    "type": "LoopBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "A4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "G4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "E4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "C4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Piano",
+                    "pitch": "D4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "loop": 2,
+                    "instrument": "Banjo",
+                    "pitch": "E4",
+                    "type": "LoopBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Piano",
+                    "pitch": "D4",
+                    "type": "NoteBlock"
+                }
+            ],
+            "name": "Banjo1",
+            "scriptX": 116,
+            "scriptY": 6
+        },
+        {
+            "blockList": [
+                {
+                    "duration": "h",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "w",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "i",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "C4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "q",
+                    "instrument": "Banjo",
+                    "pitch": "D4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "C4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "D4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "E4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "loop": 2,
+                    "instrument": "Banjo",
+                    "pitch": "G4",
+                    "type": "LoopBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "A4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "G4",
+                    "type": "NoteBlock"
+                }
+            ],
+            "name": "Banjo2",
+            "scriptX": 403,
+            "scriptY": 6
+        },
+        {
+            "blockList": [
+                {
+                    "duration": "q",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "w",
+                    "chordType": "maj",
+                    "instrument": "Piano",
+                    "pitch": "C4",
+                    "type": "ChordBlock"
+                },
+                {
+                    "duration": "h",
+                    "chordType": "maj",
+                    "instrument": "Piano",
+                    "pitch": "C4",
+                    "type": "ChordBlock"
+                },
+                {
+                    "duration": "h",
+                    "chordType": "dom7",
+                    "instrument": "Piano",
+                    "pitch": "G4",
+                    "type": "ChordBlock"
+                },
+                {
+                    "duration": "q",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "w",
+                    "chordType": "maj",
+                    "instrument": "Piano",
+                    "pitch": "C4",
+                    "type": "ChordBlock"
+                },
+                {
+                    "duration": "q",
+                    "chordType": "dom7",
+                    "instrument": "Piano",
+                    "pitch": "G4",
+                    "type": "ChordBlock"
+                },
+                {
+                    "duration": "h",
+                    "chordType": "maj",
+                    "instrument": "Piano",
+                    "pitch": "C4",
+                    "type": "ChordBlock"
+                }
+            ],
+            "name": "Harmony",
+            "scriptX": 1148,
+            "scriptY": 16
+        },
+        {
+            "blockList": [
+                {
+                    "duration": "h",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "w",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "w",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "q.",
+                    "type": "RestBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "E4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "C4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "instrument": "Banjo",
+                    "pitch": "D4",
+                    "type": "NoteBlock"
+                },
+                {
+                    "duration": "i",
+                    "loop": 2,
+                    "instrument": "Banjo",
+                    "pitch": "E4",
+                    "type": "LoopBlock"
+                },
+                {
+                    "duration": "i",
+                    "loop": 2,
+                    "instrument": "Banjo",
+                    "pitch": "D4",
+                    "type": "LoopBlock"
+                },
+                {
+                    "duration": "q",
+                    "instrument": "Banjo",
+                    "pitch": "C4",
+                    "type": "NoteBlock"
+                }
+            ],
+            "name": "Banjo3",
+            "scriptX": 668,
+            "scriptY": 7
+        }
+    ],
+    "bpm": 90
+}

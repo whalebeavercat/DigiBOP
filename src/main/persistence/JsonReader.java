@@ -46,6 +46,7 @@ public class JsonReader {
     private Channel parseChannel(JSONObject jsonObject) {
         int bpm = jsonObject.getInt("bpm");
         Channel channel = new Channel();
+        channel.setBpm(bpm);
         addScripts(channel, jsonObject);
         return channel;
     }
